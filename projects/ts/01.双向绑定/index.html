@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body id="app">
+  <input type="text" dww-model="name" name="name">
+  <input type="text" dww-model="age" name="age">
+  <input type="text" dww-model="phone" name="phone">
+  <p>name: <span>{{name}}</span></p>
+  <p>age: <span>{{age}}</span></p>
+  <p>phone: <span>{{phone}}</span></p>
+
+</body>
+<!--<script type="module" src="./mvvm.js"></script>-->
+<script type="module">
+    import {Mvvm} from './mvvm.js';
+  const app = new Mvvm('#app', {
+    name: 'dww',
+    age: 12,
+    phone: 123
+  })
+</script>
+</html>
