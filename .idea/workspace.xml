@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327f9a6c-1276-4485-b7c7-77fa78298f20" name="Default Changelist" comment="add react vue3 ng">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="327f9a6c-1276-4485-b7c7-77fa78298f20" name="Default Changelist" comment="add react vue3 ng" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,13 +69,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="H:\study\study\projects\angular-projects\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\h316101\WebstormProjects\study\projects\react\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -124,6 +124,7 @@
       <workItem from="1620733591237" duration="6901000" />
       <workItem from="1621258599921" duration="1974000" />
       <workItem from="1621298242493" duration="4810000" />
+      <workItem from="1621389098251" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="add react vue3 ng">
       <created>1606922396320</created>
