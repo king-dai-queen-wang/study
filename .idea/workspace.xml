@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327f9a6c-1276-4485-b7c7-77fa78298f20" name="Default Changelist" comment="add react vue3 ng" />
+    <list default="true" id="327f9a6c-1276-4485-b7c7-77fa78298f20" name="Default Changelist" comment="add react vue3 ng">
+      <change afterPath="$PROJECT_DIR$/projects/react/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/react/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/.babelrc_bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/react/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/src/react-app-env.d.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +142,8 @@
       <workItem from="1621258599921" duration="1974000" />
       <workItem from="1621298242493" duration="4810000" />
       <workItem from="1621389098251" duration="2203000" />
+      <workItem from="1621415132314" duration="2078000" />
+      <workItem from="1621422866285" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="add react vue3 ng">
       <created>1606922396320</created>
@@ -140,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621298481410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add react vue3 ng">
+      <created>1621415253888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621415253888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
