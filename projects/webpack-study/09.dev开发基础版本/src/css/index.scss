@@ -1,0 +1,25 @@
+.container{
+  background: red;
+  height: 200px;
+}
+
+.box1, .box2, .box3{
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.box1{
+  background-image: url("../assets/angular.jpg");
+}
+.box2{
+  background-image: url("../assets/react.png");
+}
+.box3{
+  background-image: url("../assets/vue.png");
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}

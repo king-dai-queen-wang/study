@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  /*css3 3d变换 隐藏背面的效果*/
+  backface-visibility: hidden;
+  background: red;
+  height: 200px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}

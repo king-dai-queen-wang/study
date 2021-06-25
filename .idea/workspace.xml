@@ -1,23 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327f9a6c-1276-4485-b7c7-77fa78298f20" name="Default Changelist" comment="add react vue3 ng">
-      <change afterPath="$PROJECT_DIR$/projects/react/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/react/scripts/test.js" afterDir="false" />
+    <list default="true" id="327f9a6c-1276-4485-b7c7-77fa78298f20" name="Default Changelist" comment="react eject">
+      <change afterPath="$PROJECT_DIR$/projects/react/src/components/todos/input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/src/components/todos/list/Item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/src/components/todos/list/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/src/components/todos/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/src/components/todos/reducer/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/react/src/pages/activiti/Activiti.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/01/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/01/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/01/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/02/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/02/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/02/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/02/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/02/src/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/02/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/03/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/03/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/03/index2.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/03/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/04/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/04/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/04/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/04/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/05/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/src/assets/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/06/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/fonts/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/fonts/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/07/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/fonts/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/fonts/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/src/assets/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/08/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/fonts/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/fonts/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/src/assets/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/src/css/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev开发基础版本/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/fonts/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/fonts/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/assets/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/css/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/css/b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/09.dev把css文件提取为单个文件/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/fonts/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/fonts/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/assets/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/css/a.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/css/b.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/10.兼容性处理/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/11.语法检查/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/11.语法检查/READEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/11.语法检查/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/11.语法检查/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/11.语法检查/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/READEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/dist/js/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/12.js兼容性处理/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/fonts/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/fonts/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/assets/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/assets/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/assets/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/css/a.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/css/b.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/react/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/.babelrc_bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/react/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/react/src/pages/todos/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/src/components/todos/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/react/src/routers/routers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/react/src/routers/routers.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +151,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="Unnamed" />
+        <option value="TypeScript File" />
+        <option value="React" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,30 +226,79 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/webpack-study/13.生产环境配置/src/css" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="C:\Users\h316101\WebstormProjects\study\projects\react\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\study\study\projects" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\study\study\projects\react" />
-      <recent name="E:\study\study\projects\vue3" />
-      <recent name="E:\study\study\projects" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\13.生产环境配置\src\css" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\13.生产环境配置" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\13.生产环境配置\src" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\08" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\13.生产环境配置\src\js" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\09.dev开发基础版本\src\js" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\09.dev开发基础版本\src\css" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\09.dev开发基础版本\src" />
+      <recent name="C:\Users\h316101\WebstormProjects\study\projects\webpack-study\07\fonts" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/projects/react/package.json" />
+  <component name="RunManager" selected="npm.13">
+    <configuration name="09-2" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projects/webpack-study/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="09-2" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="10" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projects/webpack-study/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="10" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="11" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projects/webpack-study/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="11" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="12" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projects/webpack-study/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="12" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="13" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projects/webpack-study/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="13" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -120,7 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="npm.13" />
+        <item itemvalue="npm.12" />
+        <item itemvalue="npm.11" />
+        <item itemvalue="npm.09-2" />
+        <item itemvalue="npm.10" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +333,21 @@
       <workItem from="1621298242493" duration="4810000" />
       <workItem from="1621389098251" duration="2203000" />
       <workItem from="1621415132314" duration="2078000" />
-      <workItem from="1621422866285" duration="1037000" />
+      <workItem from="1621422866285" duration="2583000" />
+      <workItem from="1621425485086" duration="6569000" />
+      <workItem from="1621474823403" duration="59000" />
+      <workItem from="1621495604812" duration="1253000" />
+      <workItem from="1621500324543" duration="20000" />
+      <workItem from="1621560434328" duration="2000" />
+      <workItem from="1621577465527" duration="2741000" />
+      <workItem from="1621819124952" duration="96000" />
+      <workItem from="1621819910514" duration="23000" />
+      <workItem from="1622770625274" duration="4249000" />
+      <workItem from="1624359717587" duration="813000" />
+      <workItem from="1624361229627" duration="3264000" />
+      <workItem from="1624365256655" duration="22853000" />
+      <workItem from="1624442602768" duration="7656000" />
+      <workItem from="1624491166317" duration="14030000" />
     </task>
     <task id="LOCAL-00001" summary="add react vue3 ng">
       <created>1606922396320</created>
@@ -166,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621415253888</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="react eject">
+      <created>1621423944064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621423944064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -212,7 +423,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add react vue3 ng" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react vue3 ng" />
+    <MESSAGE value="react eject" />
+    <option name="LAST_COMMIT_MESSAGE" value="react eject" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/projects/angular-projects/karma.conf.js">

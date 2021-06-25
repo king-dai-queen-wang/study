@@ -3,9 +3,10 @@ import {Test} from "../pages/home/test/Test";
 import {Game} from "../pages/games/components/game/Game";
 import {Clock} from "../pages/clock/Clock";
 import {RouterModel} from "../model";
-import {Todo} from "../pages/todos/Todo";
+import Todo from "../components/todos/Todo";
 import {Antd} from "../pages/antd/Antd";
-
+import {Activiti} from "../pages/activiti/Activiti";
+import '@logicflow/core/dist/style/index.css';
 export const routers: RouterModel[] = [
     {
         path: '/home',
@@ -34,5 +35,9 @@ export const routers: RouterModel[] = [
         path: '/antd',
         name: 'antd',
         component: Antd,
+    }, {
+        path: '/activiti',
+        name: 'activiti',
+        component: Activiti,
     }
 ];
